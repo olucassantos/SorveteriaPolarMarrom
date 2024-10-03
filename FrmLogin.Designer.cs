@@ -66,7 +66,7 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.BackColor = System.Drawing.Color.Red;
+            this.btnEntrar.BackColor = System.Drawing.Color.White;
             this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEntrar.Location = new System.Drawing.Point(142, 174);
             this.btnEntrar.Name = "btnEntrar";
