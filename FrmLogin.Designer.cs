@@ -30,12 +30,12 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.txtSenha = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.btnEntrar = new System.Windows.Forms.Button();
+            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -64,24 +64,16 @@
             this.panel1.Size = new System.Drawing.Size(380, 217);
             this.panel1.TabIndex = 1;
             // 
-            // label1
+            // btnEntrar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(110, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(161, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Acessar sistema ";
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(57, 80);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(266, 30);
-            this.txtUsuario.TabIndex = 0;
+            this.btnEntrar.BackColor = System.Drawing.Color.Red;
+            this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnEntrar.Location = new System.Drawing.Point(142, 174);
+            this.btnEntrar.Name = "btnEntrar";
+            this.btnEntrar.Size = new System.Drawing.Size(96, 33);
+            this.btnEntrar.TabIndex = 2;
+            this.btnEntrar.Text = "Entrar";
+            this.btnEntrar.UseVisualStyleBackColor = false;
             // 
             // txtSenha
             // 
@@ -92,16 +84,13 @@
             this.txtSenha.Size = new System.Drawing.Size(266, 30);
             this.txtSenha.TabIndex = 1;
             // 
-            // label2
+            // txtUsuario
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(53, 57);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Usuário";
+            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Location = new System.Drawing.Point(57, 80);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(266, 30);
+            this.txtUsuario.TabIndex = 0;
             // 
             // label3
             // 
@@ -114,16 +103,27 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Senha";
             // 
-            // btnEntrar
+            // label2
             // 
-            this.btnEntrar.BackColor = System.Drawing.Color.White;
-            this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnEntrar.Location = new System.Drawing.Point(142, 174);
-            this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(96, 33);
-            this.btnEntrar.TabIndex = 2;
-            this.btnEntrar.Text = "Entrar";
-            this.btnEntrar.UseVisualStyleBackColor = false;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(53, 57);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Usuário";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(110, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(161, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Acessar sistema ";
             // 
             // FrmLogin
             // 
