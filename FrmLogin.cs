@@ -16,5 +16,12 @@ namespace SorveteriaPolarMarrom
         {
             InitializeComponent();
         }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            FrmMenu frmMenu = new FrmMenu();
+            this.Hide(); // Fecha o formulário atual
+            frmMenu.Show();
+        }
     }
 }
